@@ -1,0 +1,78 @@
+:root{
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+  --highlight: hsl(228, 45%, 44%);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0;}
+
+body{
+  font-family: "Inter", sans-serif;
+  background: var(--grey-900);
+  color: var(--white);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img{
+  border-radius: 50%;
+  width: 25%;
+}
+
+button{
+  width: 100%;
+  background: var(--grey-700);
+  border: 0;
+  border-radius: 10px;
+  padding: 0.75rem;
+  color: var(--white);
+}
+button:hover{
+  background: var(--green);
+  cursor: pointer;
+}
+.profile-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--grey-800);
+  width: min(100%, 23.4375rem);
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.authour-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+.authour-name{
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+.location{
+  color: var(--green);
+  margin-bottom: 25px;
+}
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: var(--highlight); }
