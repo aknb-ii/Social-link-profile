@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aknb-ii/Social-link-profile)
-- Live Site URL: [Add live site URL here](https://aknb-ii.github.io/Social-link-profile/)
+- Solution URL: [Solution URL](https://github.com/aknb-ii/Social-link-profile)
+- Live Site URL: [Live site URL](https://aknb-ii.github.io/Social-link-profile/)
 
 ## My process
 
